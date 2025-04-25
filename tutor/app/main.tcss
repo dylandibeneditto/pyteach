@@ -1,0 +1,11 @@
+MainView {
+	margin: 1 2;
+	height: auto;
+}
+
+ChallengeItem {
+	padding: 1 2;
+	height: 7;
+	align-vertical: middle;
+	layout: horizontal;
+}

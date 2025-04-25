@@ -1,0 +1,52 @@
+{
+    "challenges": [
+        {
+            "title": "Reverse a String",
+            "unit": 1,
+            "description": "Write a function that takes a string as input and returns the string reversed.",
+            "header": "def reverse_string(s):\n    # Your code here\n",
+            "cases": [
+                {
+                    "input": "hello",
+                    "output": "olleh"
+                },
+                {
+                    "input": "world",
+                    "output": "dlrow"
+                }
+            ]
+        },
+        {
+            "title": "Check for Palindrome",
+            "unit": 1,
+            "description": "Write a function that checks if a given string is a palindrome.",
+            "header": "def is_palindrome(s):\n    # Your code here\n",
+            "cases": [
+                {
+                    "input": "racecar",
+                    "output": true
+                },
+                {
+                    "input": "hello",
+                    "output": false
+                }
+            ]
+        },
+        {
+            "title": "Count Vowels",
+            "unit": 1,
+            "description": "Write a function that counts the number of vowels in a given string.",
+            "header": "def count_vowels(s):\n    # Your code here\n",
+            "cases": [
+                {
+                    "input": "hello world",
+                    "output": 3
+                },
+                {
+                    "input": "python programming",
+                    "output": 4
+                }
+            ]
+        }
+    ]
+}
