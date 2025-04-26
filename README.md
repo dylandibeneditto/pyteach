@@ -14,7 +14,10 @@ git clone https://github.com/dylandibeneditto/pyteach ; cd pyteach
 python tutor/tutor.py
 ```
 
-> Now you can code out the challenge in the `challenge.py` file
+Open your editor to the `challenge.py` file in the new `pyteach` folder.
+Now you can code out the challenge in the `challenge.py` file.
+
+> The runner calls the function in the `challenge.py` file, so there's no need to create a main function
 
 ### Testing your `challenge.py`
 
