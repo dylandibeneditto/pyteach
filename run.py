@@ -1,4 +1,5 @@
 from challenge import reverse
+from tutor.loader import add_completion
 
 from rich.console import Console
 from rich.panel import Panel
@@ -42,8 +43,8 @@ def run_tests():
             return False
     
     c.print(f"[bold green]All test cases passed! ({len(test_cases)}/{len(test_cases)})[/]")
-            
-            
+    add_completion("reverse_string")
+
 
 if __name__ == "__main__":
     run_tests()

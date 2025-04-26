@@ -5,7 +5,22 @@ MainView {
 
 ChallengeItem {
 	padding: 1 2;
-	height: 7;
+	height: 4;
 	align-vertical: middle;
 	layout: horizontal;
+}
+
+#footer {
+    height: 1;
+    layout: horizontal;
+    padding-left: 2;
+}
+
+#footer > * {
+    width: auto;
+    padding-right: 2;
+}
+
+#footer > #spacer {
+    width: 1fr
 }
