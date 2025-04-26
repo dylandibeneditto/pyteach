@@ -1,21 +1,20 @@
-# Python Tutor
+# PyTeach 
 
-Similar to Leetcode, a local way to develop your python skills.
+Similar to Leetcode, a local solution to develop your python skills.
 
 ## Installation
 
 ```bash
-git clone https://github.com/dylandibeneditto/pyteach
+git clone https://github.com/dylandibeneditto/pyteach ; cd pyteach
 ```
-
-> [!NOTE]
-> The directory that will be created is where all the following commands should be run
 
 ### Creating a Challenge
 
 ```bash
 python tutor/tutor.py
 ```
+
+> Now you can code out the challenge in the `challenge.py` file
 
 ### Testing your `challenge.py`
 
