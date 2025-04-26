@@ -126,6 +126,8 @@ class MainView(App):
             if self.unit is None:
                 self.unit = 0
             self.unit = (self.unit + 1) % 3
+            if self.unit == 0:
+                self.unit = None
             self.update_filter()
         elif event.key == "r":
             self.completed = 0
