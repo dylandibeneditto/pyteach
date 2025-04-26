@@ -37,6 +37,7 @@ class MainView(App):
             yield Static(id="unit-filter")
             yield Static(id="completed-filter")
             yield Static(f"[{theme['sec'].hex}] (r)eset[/]", id="reset-filter")
+            yield Static(f"[{theme['sec'].hex}] (enter) create challenge[/]", id="enter-hint")
             yield Static(id="spacer")
             yield Static(id="page-count")
 
