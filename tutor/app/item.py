@@ -5,14 +5,14 @@ from textual.widget import Widget
 from textual.color import Color
 from app.theme import theme
 from loader import is_completed
-import random
+import uuid
 
 class ChallengeItem(Widget):
     def __init__(self, challenge: dict, index: int):
         super().__init__()
         self.challenge = challenge
         self.index = index
-        self.id = f"{self.challenge['id']}_{self.index}_{random.randint(0, 1000)}"
+        self.id = f"{self.challenge['id']}_{self.index}_{uuid.uuid4().hex}"
 
     def compose(self) -> ComposeResult:
         with Vertical(id="challenge-item"):

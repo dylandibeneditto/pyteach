@@ -1,5 +1,7 @@
 {
     "completed": [
-        "reverse_string"
+        "reverse_string",
+        "check_palindrome",
+        "count_vowels"
     ]
 }

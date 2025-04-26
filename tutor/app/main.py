@@ -7,6 +7,7 @@ from textual.binding import Binding
 from app.theme import theme
 from app.item import ChallengeItem
 from loader import is_completed
+from create import create_challenge
 from math import ceil
 
 class MainView(App):
@@ -133,3 +134,7 @@ class MainView(App):
         elif event.key == "c":
             self.completed = (self.completed + 1) % 3
             self.update_filter()
+        if event.key == "enter":
+            chal = self.current_challenges[self.selected + (self.page * self.page_size)]
+            create_challenge(chal)
+            self.exit()
